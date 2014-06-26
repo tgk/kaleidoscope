@@ -20,7 +20,7 @@ kaleidoscope offers:
 The price is that predicate logic is stored as meta-data on the generic
 operator. For a further discussion of the tradeoffs selected in this
 implementation,
-[please see this blog post](http://tgk.github.io/2013/06/generic-operator-predicate-dispatch-semantics-in-clojure.html)
+[please see this blog post](http://tgk.github.io/2013/06/generic-operator-predicate-dispatch-semantics-in-clojure.html).
 
 ## Usage
 
