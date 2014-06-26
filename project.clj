@@ -4,7 +4,11 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :plugins [[lein-cljsbuild "1.0.4-SNAPSHOT"]
-            [com.keminglabs/cljx "0.3.0"]]
+            [com.keminglabs/cljx "0.3.0"]
+            [lein-release "1.0.5"]]
+  :lein-release {:scm :git
+                 :deploy-via :shell
+                 :shell ["lein" "deploy" "clojars"]}
   :jar-exclusions [#"\.cljx"]
   :cljx {:builds [{:source-paths ["src/"]
                    :output-path "target/generated"
