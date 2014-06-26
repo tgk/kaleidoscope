@@ -1,4 +1,4 @@
-(defproject kaleidoscope "0.1.0"
+(defproject kaleidoscope "0.1.1-SNAPSHOT"
   :description "A predicate dispatch library for Clojure."
   :url "http://github.com/tgk/kaleidoscope"
   :license {:name "Eclipse Public License"
