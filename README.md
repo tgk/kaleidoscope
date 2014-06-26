@@ -24,6 +24,10 @@ implementation,
 
 ## Usage
 
+Download the plugin (Clojure and ClojureScript compatible) from Clojars.
+
+[![Clojars Project](http://clojars.org/kaleidoscope/latest-version.svg)](http://clojars.org/kaleidoscope)
+
 ```clojure
 (require '[kaleidoscope :refer (generic-operator assign-operation)])
 
