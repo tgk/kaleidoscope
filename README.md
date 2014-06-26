@@ -28,6 +28,9 @@ Download the plugin (Clojure and ClojureScript compatible) from Clojars.
 
 [![Clojars Project](http://clojars.org/kaleidoscope/latest-version.svg)](http://clojars.org/kaleidoscope)
 
+There are no macros, so the following example works out of the box in
+both Clojure and ClojureScript.
+
 ```clojure
 (require '[kaleidoscope :refer (generic-operator assign-operation)])
 
